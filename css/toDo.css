@@ -1,0 +1,36 @@
+.backgroundHeader {
+    background-image: url("../img/mount.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.main {
+    display: flex;
+    max-width: 540px;
+    margin: auto;
+    flex-direction: column;
+}
+.titleHeader {
+    text-align: start;
+    color: white;
+    font-family: "Josefin Sans",sans-serif;
+    letter-spacing: 15px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.header {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.btn-switch {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    width: 25px;
+
+}
