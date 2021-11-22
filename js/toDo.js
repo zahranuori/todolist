@@ -64,7 +64,7 @@ function createTodos(todos) {
 
 createTodos(todos)
 
-// action add & search
+// action add
 let actions = document.querySelector("#actions")
 let formWrapper = document.querySelector("#form-wrapper")
 
