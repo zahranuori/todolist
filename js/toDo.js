@@ -63,7 +63,12 @@ function createTodos(todos) {
 }
 
 createTodos(todos)
-
+function newElement() {
+    let newTask = document.querySelector("#newTask");
+    let newTodo = { content: newTask.value, status: true };
+    todos = [...todos, newTodo];
+    createTodos(todos);
+}
 // action add
 let actions = document.querySelector("#actions")
 let formWrapper = document.querySelector("#form-wrapper")
@@ -80,3 +85,9 @@ Array.from(actions.children).forEach(action => {
     }
 })
 
+// drag and drop
+new Sortable(todos, {
+    animation: 150,
+    group: 'shared',
+    ghostClass: 'blue-background-class'
+})

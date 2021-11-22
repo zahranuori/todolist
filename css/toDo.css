@@ -32,7 +32,8 @@ body {
     align-items: center;
     flex-direction: column;
 }
-#myInput {
+
+#newTask {
     width: var(--width);
     height: 3rem;
     border-radius: 0.4rem;
